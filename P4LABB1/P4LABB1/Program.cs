@@ -17,7 +17,7 @@ namespace P4LAB1
 
 
 
-            var dodanie = "INSERT INTO mg.kategorie (IDkategorii, NazwaKategorii, Opis) VALUES ('9', 'Przekaski', 'Chipsy, Paluszki');";
+            var dodanie = "INSERT INTO mg.kategorie (IDkategorii, NazwaKategorii, Opis) VALUES ('9', 'Przekaski', ' ');";
 
             var command1 = new SqlCommand(dodanie, connection);
 
